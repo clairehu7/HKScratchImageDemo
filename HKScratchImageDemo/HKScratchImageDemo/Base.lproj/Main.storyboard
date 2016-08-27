@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="a4c-Gl-q2k">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomePage-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGround" translatesAutoresizingMaskIntoConstraints="NO" id="2dH-Zm-Kbw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mk-0b-HGD">
+                                <rect key="frame" x="124" y="533" width="72" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="5be-SJ-rXw"/>
+                                    <constraint firstAttribute="height" constant="35" id="SD8-7R-cB4"/>
+                                </constraints>
+                                <state key="normal" title="查看图片"/>
+                                <connections>
+                                    <action selector="showImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5aL-z7-2WC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scratch" translatesAutoresizingMaskIntoConstraints="NO" id="lcA-X5-B26">
+                                <rect key="frame" x="124" y="64" width="200" height="300"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="MQ0-Sk-Y1s"/>
+                                    <constraint firstAttribute="width" constant="200" id="WTQ-35-41S"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Mk-0b-HGD" firstAttribute="centerX" secondItem="2dH-Zm-Kbw" secondAttribute="centerX" id="0lI-hx-T1a"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-19" id="41n-p7-JeH"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7IJ-ka-a4y"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="-38" id="MsZ-eg-8xK"/>
+                            <constraint firstItem="lcA-X5-B26" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SAu-Gr-jGy"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="VL0-hz-r2m"/>
+                            <constraint firstItem="8Mk-0b-HGD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="mMS-jT-rQK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lcA-X5-B26" secondAttribute="trailing" constant="-20" id="nFD-AY-ESL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="HomePage" id="i6q-ra-u8q"/>
+                    <connections>
+                        <outlet property="backGroundIV" destination="2dH-Zm-Kbw" id="UFB-nu-BJv"/>
+                        <outlet property="scratchIV" destination="lcA-X5-B26" id="qzL-vN-2Qa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="680" y="321"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Tp-GV-scU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a4c-Gl-q2k" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RCO-rf-ros">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OLt-MM-plF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oqv-r1-qe8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="321"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackGround" width="220" height="137"/>
+        <image name="Scratch" width="554" height="815"/>
+    </resources>
+</document>
