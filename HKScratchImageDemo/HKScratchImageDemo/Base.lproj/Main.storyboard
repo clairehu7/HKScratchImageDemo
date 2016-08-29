@@ -29,7 +29,7 @@
                                 </constraints>
                                 <state key="normal" title="查看图片"/>
                                 <connections>
-                                    <action selector="showImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5aL-z7-2WC"/>
+                                    <action selector="showImageTUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vK5-IN-itv"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scratch" translatesAutoresizingMaskIntoConstraints="NO" id="lcA-X5-B26">
@@ -55,8 +55,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="HomePage" id="i6q-ra-u8q"/>
                     <connections>
-                        <outlet property="backGroundIV" destination="2dH-Zm-Kbw" id="UFB-nu-BJv"/>
-                        <outlet property="scratchIV" destination="lcA-X5-B26" id="qzL-vN-2Qa"/>
+                        <outlet property="backGroundImageView" destination="2dH-Zm-Kbw" id="yjg-cO-EnG"/>
+                        <outlet property="scratchImageView" destination="lcA-X5-B26" id="RBm-TO-asu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

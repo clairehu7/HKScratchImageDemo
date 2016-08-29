@@ -18,8 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"Result";
-    self.view.backgroundColor = [UIColor colorWithRed:0.573 green:0.592 blue:0.620 alpha:1.000];
+    self.view.backgroundColor = [UIColor colorWithRed:0.310 green:0.627 blue:0.984 alpha:1.000];
     UIImageView *iv = [[UIImageView alloc]initWithImage:self.image];
+    iv.frame = CGRectMake(0, 64, iv.frame.size.width, iv.frame.size.height);
     [self.view addSubview:iv];
 }
 

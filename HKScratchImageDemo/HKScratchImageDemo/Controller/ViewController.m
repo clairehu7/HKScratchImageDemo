@@ -10,8 +10,10 @@
 #import "ShowImageViewController.h"
 
 @interface ViewController ()<UIAlertViewDelegate>
-@property (weak, nonatomic) IBOutlet UIImageView *scratchIV;
-@property (weak, nonatomic) IBOutlet UIImageView *backGroundIV;
+
+@property (weak, nonatomic) IBOutlet UIImageView *scratchImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *backGroundImageView;
+
 
 @property (nonatomic, strong)UIImage *resultImage;
 @end
@@ -21,9 +23,9 @@
 #pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.scratchIV setUserInteractionEnabled:YES];
+    [self.scratchImageView setUserInteractionEnabled:YES];
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGesture:)];
-    [self.scratchIV addGestureRecognizer:pan];
+    [self.scratchImageView addGestureRecognizer:pan];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,7 +46,7 @@
     UIImage*image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    self.scratchIV.image = image;
+    self.scratchImageView.image = image;
     
     if (sender.state == UIGestureRecognizerStateEnded) {
         [self checkSave];
@@ -64,13 +66,13 @@
         [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
         UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
         
-        self.resultImage = [UIImage imageWithCGImage:CGImageCreateWithImageInRect(img.CGImage, self.backGroundIV.frame)];
+        self.resultImage = [UIImage imageWithCGImage:CGImageCreateWithImageInRect(img.CGImage, self.backGroundImageView.frame)];
         UIGraphicsEndImageContext();
     }
 }
 
 #pragma mark - Btn Methods
-- (IBAction)showImage:(UIButton *)sender {
+- (IBAction)showImageTUI:(UIButton *)sender {
     ShowImageViewController *vc = [[ShowImageViewController alloc]init];
     vc.image = self.resultImage;
     
