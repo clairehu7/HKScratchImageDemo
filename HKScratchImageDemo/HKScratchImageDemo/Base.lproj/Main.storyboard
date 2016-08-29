@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGround" translatesAutoresizingMaskIntoConstraints="NO" id="2dH-Zm-Kbw">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="530"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="500"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mk-0b-HGD">
                                 <rect key="frame" x="124" y="533" width="72" height="35"/>
@@ -44,9 +44,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8Mk-0b-HGD" firstAttribute="centerX" secondItem="2dH-Zm-Kbw" secondAttribute="centerX" id="0lI-hx-T1a"/>
-                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-19" id="41n-p7-JeH"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-34" id="41n-p7-JeH"/>
                             <constraint firstItem="2dH-Zm-Kbw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7IJ-ka-a4y"/>
-                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="-38" id="MsZ-eg-8xK"/>
+                            <constraint firstItem="2dH-Zm-Kbw" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="-68" id="MsZ-eg-8xK"/>
                             <constraint firstItem="lcA-X5-B26" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SAu-Gr-jGy"/>
                             <constraint firstItem="2dH-Zm-Kbw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="VL0-hz-r2m"/>
                             <constraint firstItem="8Mk-0b-HGD" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="mMS-jT-rQK"/>
