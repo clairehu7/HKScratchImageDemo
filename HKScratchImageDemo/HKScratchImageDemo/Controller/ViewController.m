@@ -7,13 +7,15 @@
 //
 
 #import "ViewController.h"
+
+#import "HKScratchView.h"
 #import "ShowImageViewController.h"
 
 @interface ViewController ()<UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *scratchImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *backGroundImageView;
-
+@property (nonatomic, strong) HKScratchView *scratchImgView;
 
 @property (nonatomic, strong)UIImage *resultImage;
 @end

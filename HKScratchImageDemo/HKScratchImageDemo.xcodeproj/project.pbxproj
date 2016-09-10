@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777F170A1D84571100E8DE73 /* HKScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777F17051D84571100E8DE73 /* HKScratchView.m */; };
+		777F170B1D84571100E8DE73 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777F17071D84571100E8DE73 /* ShowImageViewController.m */; };
+		777F170C1D84571100E8DE73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777F17091D84571100E8DE73 /* ViewController.m */; };
 		77E8F9591D74364600B2A7C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F9581D74364600B2A7C7 /* main.m */; };
 		77E8F95C1D74364600B2A7C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F95B1D74364600B2A7C7 /* AppDelegate.m */; };
 		77E8F9621D74364600B2A7C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E8F9601D74364600B2A7C7 /* Main.storyboard */; };
 		77E8F9641D74364600B2A7C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E8F9631D74364600B2A7C7 /* Assets.xcassets */; };
 		77E8F9671D74364600B2A7C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E8F9651D74364600B2A7C7 /* LaunchScreen.storyboard */; };
 		77E8F9721D74364600B2A7C7 /* HKScratchImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F9711D74364600B2A7C7 /* HKScratchImageDemoTests.m */; };
-		77E8F9811D74378B00B2A7C7 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F97E1D74378B00B2A7C7 /* ShowImageViewController.m */; };
-		77E8F9821D74378B00B2A7C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E8F9801D74378B00B2A7C7 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		777F17041D84571100E8DE73 /* HKScratchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKScratchView.h; sourceTree = "<group>"; };
+		777F17051D84571100E8DE73 /* HKScratchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKScratchView.m; sourceTree = "<group>"; };
+		777F17061D84571100E8DE73 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		777F17071D84571100E8DE73 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		777F17081D84571100E8DE73 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		777F17091D84571100E8DE73 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77E8F9541D74364600B2A7C7 /* HKScratchImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKScratchImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8F9581D74364600B2A7C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E8F95A1D74364600B2A7C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,10 +46,6 @@
 		77E8F96D1D74364600B2A7C7 /* HKScratchImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKScratchImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E8F9711D74364600B2A7C7 /* HKScratchImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKScratchImageDemoTests.m; sourceTree = "<group>"; };
 		77E8F9731D74364600B2A7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77E8F97D1D74378B00B2A7C7 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
-		77E8F97E1D74378B00B2A7C7 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
-		77E8F97F1D74378B00B2A7C7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77E8F9801D74378B00B2A7C7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		777F17021D84571100E8DE73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				777F17031D84571100E8DE73 /* HKScratchView */,
+				777F17061D84571100E8DE73 /* ShowImageViewController.h */,
+				777F17071D84571100E8DE73 /* ShowImageViewController.m */,
+				777F17081D84571100E8DE73 /* ViewController.h */,
+				777F17091D84571100E8DE73 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		777F17031D84571100E8DE73 /* HKScratchView */ = {
+			isa = PBXGroup;
+			children = (
+				777F17041D84571100E8DE73 /* HKScratchView.h */,
+				777F17051D84571100E8DE73 /* HKScratchView.m */,
+			);
+			path = HKScratchView;
+			sourceTree = "<group>";
+		};
 		77E8F94B1D74364600B2A7C7 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +108,7 @@
 		77E8F9561D74364600B2A7C7 /* HKScratchImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				77E8F97C1D74378B00B2A7C7 /* Controller */,
+				777F17021D84571100E8DE73 /* Controller */,
 				77E8F9601D74364600B2A7C7 /* Main.storyboard */,
 				77E8F9571D74364600B2A7C7 /* Supporting Files */,
 			);
@@ -111,17 +135,6 @@
 				77E8F9731D74364600B2A7C7 /* Info.plist */,
 			);
 			path = HKScratchImageDemoTests;
-			sourceTree = "<group>";
-		};
-		77E8F97C1D74378B00B2A7C7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				77E8F97D1D74378B00B2A7C7 /* ShowImageViewController.h */,
-				77E8F97E1D74378B00B2A7C7 /* ShowImageViewController.m */,
-				77E8F97F1D74378B00B2A7C7 /* ViewController.h */,
-				77E8F9801D74378B00B2A7C7 /* ViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777F170C1D84571100E8DE73 /* ViewController.m in Sources */,
 				77E8F95C1D74364600B2A7C7 /* AppDelegate.m in Sources */,
 				77E8F9591D74364600B2A7C7 /* main.m in Sources */,
-				77E8F9821D74378B00B2A7C7 /* ViewController.m in Sources */,
-				77E8F9811D74378B00B2A7C7 /* ShowImageViewController.m in Sources */,
+				777F170A1D84571100E8DE73 /* HKScratchView.m in Sources */,
+				777F170B1D84571100E8DE73 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +432,7 @@
 				77E8F9781D74364600B2A7C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77E8F9791D74364600B2A7C7 /* Build configuration list for PBXNativeTarget "HKScratchImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				77E8F97B1D74364600B2A7C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
